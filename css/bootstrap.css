@@ -6755,3 +6755,135 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+
+
+body {
+
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #797979;
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #352929;
+}
+
+p, ul, ol {
+	margin-top: 1.5em;
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+#wrap {
+	margin: 0;
+	padding-top: 50px;
+	background: #FFFFFF url(../template001/images/image01.jpg) repeat-x left top;
+}
+#site-logo h2 {
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+#site-logo h2 a {
+	text-decoration: none;
+	color: #9D9D9D;
+}
+#navigation {
+	width: 250px;
+	margin: 0px;
+	padding: 0px;
+}
+#navigation ul {
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+	list-style: none;
+}
+#navigation li {
+	padding: 10px 0px;
+	background: url(images/image05.gif) repeat-x left top;
+	position:relative;
+}
+#navigation .first {
+	background: none;
+}
+#navigation a {
+	background: url(images/image06.gif) no-repeat left 6px;
+	margin-left: 20px;
+	padding-left: 15px;
+	text-decoration: none;
+	color: #525252;
+}
+#navigation ul li a:hover {
+	background: url(images/image07.gif) no-repeat left 6px;
+	color: #9F6840;
+
+}
+#navigation ul li a{
+	padding: 0 15px;
+	text-decoration: none;
+	display;block;
+	height: 65px
+}
+#navigation .active {
+	background: url(images/image07.gif) no-repeat left 6px;
+	color: #9F6840;
+}
+#navigation .dropdown{
+
+	position:absolute;
+	top:100%;
+	width:250px;
+	background:#fffafa;
+	display: none;
+	z-index: 100;
+ }
+ #navigation  li:hover .dropdown{
+	display:block;}
+ #navigation .dropdown li{
+	width:100%;
+	height:45px;}
+  #navigation .dropdown li a{
+  line-height: 45px;
+  height: 45px;
+  }
+#latest-news {
+	width: 210px;
+	margin-top: 10px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: url(images/image05.gif) repeat-x left top;
+}
+#latest-news p {
+	margin: 0px;
+	padding: 0px;
+}
+#latest-news .date {
+	width: 80px;
+	margin: 20px 0px 4px 0px;
+	padding: 2px 7px;
+	background: #333333;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.content {
+	line-height: 22px;
+	padding: 20px 5px;
+}
+#footer {
+	background: #EAEAEA url(images/image02.jpg) repeat-x left top;
+	color: #979797;
+}
+#footer p {
+	margin: 0px;
+	padding: 0px;
+	padding: 30px;
+	text-align: center;
+	font-size: 11px;
+}
